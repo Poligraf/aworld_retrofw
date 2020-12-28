@@ -4,7 +4,6 @@ SDL_LIBS = `sdl-config --libs`
 #comment this line and uncomment the one below it to force detection
 DEFINES:= -DAUTO_DETECT_PLATFORM
 #DEFINES = -DSYS_LITTLE_ENDIAN
-
 CXX = mipsel-linux-g++
 CXXFLAGS:= -Os -g -std=gnu++98 -fno-rtti -fno-exceptions -Wall -Wno-unknown-pragmas -Wshadow
 CXXFLAGS+= -Wundef -Wwrite-strings -Wnon-virtual-dtor -Wno-multichar
