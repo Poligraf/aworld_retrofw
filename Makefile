@@ -1,7 +1,6 @@
 
 SDL_CFLAGS = `sdl-config --cflags`
 SDL_LIBS = `sdl-config --libs`
-
 #comment this line and uncomment the one below it to force detection
 DEFINES:= -DAUTO_DETECT_PLATFORM
 #DEFINES = -DSYS_LITTLE_ENDIAN
