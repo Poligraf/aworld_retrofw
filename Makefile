@@ -6,7 +6,7 @@ SDL_LIBS = `sdl-config --libs`
 DEFINES:= -DAUTO_DETECT_PLATFORM
 #DEFINES = -DSYS_LITTLE_ENDIAN
 
-CXX = g++
+CXX = mipsel-linux-g++
 CXXFLAGS:= -Os -g -std=gnu++98 -fno-rtti -fno-exceptions -Wall -Wno-unknown-pragmas -Wshadow
 CXXFLAGS+= -Wundef -Wwrite-strings -Wnon-virtual-dtor -Wno-multichar
 CXXFLAGS+= $(SDL_CFLAGS) $(DEFINES)
